@@ -1,0 +1,342 @@
+body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background: #fff;
+      border-bottom: 1px solid #ddd;
+    }
+    header img {
+      height: 30px;
+    }
+    .menu {
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .hero {
+      text-align: center;
+    }
+    .hero img {
+      width: 100%;
+      height: auto;
+    }
+    .sec-tion{
+      text-align: center;
+      background-color: #000000;
+      color: #ffffff;
+      padding: 20px;
+
+    }
+    .section {
+      padding: 20px;
+    }
+    .section h2 {
+      margin-bottom: 10px;
+    }
+    .cta-button {
+      background-color: #fff;
+      color: #000;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+      border-radius: 10px;
+    }
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      background-color: #f5f5f5;
+      padding: 10px 0;
+    }
+    .feature-image {
+      
+      object-fit: cover;
+      text-align: center;
+    }
+    .feature-image img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin: 10px 0;
+    }
+    .design-blocks{
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 30% 30% 30%;
+      grid-gap: 5%;
+
+    }
+     .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card h3 {
+      font-size: 1rem;
+      margin: 0 0 10px;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      display: inline-block;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+      border: 1px solid #0077cc;
+      padding: 6px 12px;
+      border-radius: 5px;
+      transition: all 0.3s;
+    }
+
+    .card a:hover {
+      background-color: #0077cc;
+      color: #fff;
+    }
+    .spl-image{
+      height: 400px;
+      width: 100%;
+      margin: 10px;
+    }
+    .specialization {
+      text-align: center;
+      background-color: #000000;
+      color: #ffffff;
+      padding: 20px;
+    }
+    }
+    .faq-item {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      margin-bottom: 15px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+    .faq-question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      cursor: pointer;
+      font-size: 1.1em;
+    }
+    .faq-question:hover {
+      background-color: #f9f9f9;
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      padding: 0 20px;
+      color: #555;
+      font-size: 0.95em;
+      line-height: 1.5;
+      transition: max-height 0.4s ease, padding 0.3s ease;
+    }
+    .faq-item.active .faq-answer {
+      max-height: 500px;
+      padding: 15px 20px 20px;
+    }
+    .arrow {
+      transition: transform 0.0s ease;
+    }
+    .faq-item.active .arrow {
+      transform: rotate(180deg);
+    }
+    }
+     .testimonial-section {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .testimonial-header {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .testimonial-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      background: #f2f2f2;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .testimonial-image {
+      flex: 1 1 1;
+    }
+
+    .testimonial-image img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .testimonial-content {
+      flex: 1 1 300px;
+      padding: 20px;
+      background: #f2f2f2;
+    }
+
+    .testimonial-content p {
+      font-size: 0.95rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .testimonial-content strong {
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    .testimonial{
+      margin: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .testimonial-container {
+        flex-direction: column;
+      }
+    }
+    .why-choose {
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    }
+    }
+  }
+
+  .why-choose h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .choose-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .choose-card {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: left;
+    background: #fff;
+  }
+
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+    background: #fdeef1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  .icon-circle img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .choose-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .choose-card p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.5;
+  }
+
+  footer {
+  background: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #eee;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+}
+
+.footer-logo img {
+  height: 50px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 6px;
+  color: #888;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 14px;
+  color: #666;
+}
+
+.footer-bottom hr {
+  margin-bottom: 10px;
+  border: none;
+  border-top: 1px solid #eee;
+}
